@@ -140,3 +140,30 @@ Interpretation:
 - Net increase: 14 complete grouped responses
 - The directional pattern did not reverse
 - The main change is that the `R_con` result moved from `p = 0.0478` in the earlier sample to `p = 0.0570` in the refreshed complete sample
+
+## Exploratory language heterogeneity
+Language differences were examined using `UserLanguage` (`EN`, `ES`, `ZH-S`) as an exploratory moderator.
+
+Language counts in the analytic sample:
+- `EN`: AI `16`, Control `13`
+- `ES`: AI `38`, Control `39`
+- `ZH-S`: AI `31`, Control `33`
+
+Main pattern:
+- For `R_con`, the AI group was higher than the control group in all three language groups
+- For `Q_con`, the AI group was also higher in all three language groups, with the largest descriptive gap in English
+- For `transfer_total`, the direction was mixed across languages, but the group differences remained small
+- For `overconfidence_gap`, the AI group was descriptively higher in English and Spanish, and nearly flat in Chinese
+
+Exploratory `group × language` interaction tests were uniformly weak:
+- `R_con`: `p = 0.8861`
+- `Q_con`: `p = 0.3209`
+- `transfer_total`: `p = 0.5740`
+- `stability_change`: `p = 0.4715`
+- `overconfidence_gap`: `p = 0.6777`
+
+Interpretation:
+- The main treatment pattern appears broadly similar across languages.
+- No clear evidence emerged that language systematically altered the treatment effects in this sample.
+- These language results should be interpreted cautiously because subgroup sizes, especially for English, are smaller than in the full sample.
+
